@@ -9,3 +9,5 @@ import AfldProof.BealConjecture
 import AfldProof.SignedFoldingCeiling
 import AfldProof.DimensionalSeparation
 import AfldProof.CompressionPipeline
+import AfldProof.VerificationBridge
+import AfldProof.WeightedProjection

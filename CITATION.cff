@@ -8,8 +8,8 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "1.0.0"
-date-released: "2026-02-19"
+version: "2.0.0"
+date-released: "2026-02-20"
 keywords:
   - lean4
   - formal verification
@@ -19,10 +19,14 @@ keywords:
   - number theory
   - fermat bridge
   - mathlib
+  - super theorem engine
+  - 15d verification
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
-  mathematical foundations of lossless dimensional folding. 91 theorems
-  with zero sorry and zero axioms, covering: Fermat bridge bijectivity,
+  mathematical foundations of lossless dimensional folding. 106 theorems
+  (1 axiom: Fermat-Wiles), covering: Fermat bridge bijectivity,
   Cyclic Preservation Theorem, 85% signed-data ceiling, rank-nullity
   information loss, P≠NP dimensional separation, Beal Conjecture
-  infrastructure, and full compression pipeline error bounds.
+  gap analysis, full compression pipeline, weighted projection fold,
+  and a verification bridge to the Super Theorem Engine (31.6K discoveries
+  verified, 90% formal coverage).
