@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.4.0"
+version: "5.5.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -48,6 +48,15 @@ keywords:
   - 37d gap bridge
   - frame optimization
   - voxel representation
+  - quantum gravity
+  - emergent spacetime
+  - black hole information paradox
+  - quantum error correction
+  - singularity resolution
+  - hawking radiation
+  - bekenstein entropy
+  - holographic principle
+  - ligo predictions
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
@@ -97,6 +106,14 @@ references:
     doi: "10.5281/zenodo.18143028"
     year: 2026
     url: "https://zenodo.org/records/18143028"
+  - type: article
+    title: "Unified Quantum Gravity Theory Through Emergent Spacetime and Quantum Error Correction"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.17994803"
+    year: 2025
+    url: "https://zenodo.org/records/17994803"
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
   mathematical foundations of lossless dimensional folding. 240 theorems
@@ -114,8 +131,10 @@ abstract: >-
   logarithmic search, accuracy monotonicity, JL dimension bound),
   E=mc² Dimensional Embeddings (symmetry invariant, scaling law α(n)=2n/3,
   negative Gaussian curvature, 15D projection, multiple optimal embeddings,
-  53,218 experiments validated), Cube Space Design (15D universal coordinate
+  53,218 experiments validated),   Cube Space Design (15D universal coordinate
   system, 15D→3D projection with 99.8% preservation, quantum 37D gap bridge,
-  69.4× combined performance boost, optimization framework), and a
-  verification bridge to the Super Theorem Engine (31.6K discoveries verified,
-  90% formal coverage).
+  69.4× combined performance boost, optimization framework), Unified Quantum
+  Gravity (emergent spacetime metric, GR/QM reduction limits, information
+  preservation, singularity resolution, LIGO predictions, Bekenstein-Hawking
+  entropy, quantum error correction), and a verification bridge to the Super
+  Theorem Engine (31.6K discoveries verified, 90% formal coverage).

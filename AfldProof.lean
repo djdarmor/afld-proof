@@ -19,3 +19,4 @@ import AfldProof.ComputationalInfoTheory
 import AfldProof.DatabaseDimensionalFolding
 import AfldProof.Emc2DimensionalEmbeddings
 import AfldProof.CubeSpaceDesign
+import AfldProof.QuantumGravity
