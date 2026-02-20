@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**167 theorems. Zero `sorry`. 4 axioms. Fully machine-verified.**
+**189 theorems. Zero `sorry`. 4 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -25,6 +25,7 @@ lossless dimensional folding, as implemented in
 | Derived Category Equivalence | `DerivedCategory.lean` | Proved |
 | Information Flow Complexity | `InformationFlowComplexity.lean` | Proved |
 | Riemann Hypothesis | `RiemannHypothesis.lean` | Proved (conditional) |
+| Computational Information Theory | `ComputationalInfoTheory.lean` | Proved |
 
 ## Key Results
 
@@ -91,7 +92,8 @@ AfldProof/
 ├── MetaTheorem15D.lean        — 15-D Exponential Meta Theorem: exp→log reduction
 ├── DerivedCategory.lean       — Derived category equivalence: functors, compression
 ├── InformationFlowComplexity.lean — Info flow complexity: barrier bypass, P≠NP
-└── RiemannHypothesis.lean        — Riemann Hypothesis: three-case elimination proof
+├── RiemannHypothesis.lean        — Riemann Hypothesis: three-case elimination proof
+└── ComputationalInfoTheory.lean  — Computational Info Theory: entropy, compression bound
 ```
 
 ## Super Theorem Engine Bridge
@@ -183,6 +185,7 @@ See: [The Riemann Hypothesis](https://zenodo.org/records/17372782)
 - Kilpatrick, C. (2025). *15-D Exponential Meta Theorem*. Zenodo. DOI: [10.5281/zenodo.17451313](https://zenodo.org/records/17451313)
 - Kilpatrick, C. (2025). *Information Flow Complexity Theory*. Zenodo. DOI: [10.5281/zenodo.17373031](https://zenodo.org/records/17373031)
 - Kilpatrick, C. (2025). *The Riemann Hypothesis: A Complete Proof*. Zenodo. DOI: [10.5281/zenodo.17372782](https://zenodo.org/records/17372782)
+- Kilpatrick, C. (2025). *Computational Information Theory*. Zenodo. DOI: [10.5281/zenodo.17373130](https://zenodo.org/records/17373130)
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
 - [libdimfold](https://github.com/djdarmor/libdimfold) — C implementation.
