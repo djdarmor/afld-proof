@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**189 theorems. Zero `sorry`. 4 axioms. Fully machine-verified.**
+**207 theorems. Zero `sorry`. 5 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -26,6 +26,7 @@ lossless dimensional folding, as implemented in
 | Information Flow Complexity | `InformationFlowComplexity.lean` | Proved |
 | Riemann Hypothesis | `RiemannHypothesis.lean` | Proved (conditional) |
 | Computational Information Theory | `ComputationalInfoTheory.lean` | Proved |
+| Database Dimensional Folding | `DatabaseDimensionalFolding.lean` | Proved |
 
 ## Key Results
 
@@ -93,7 +94,8 @@ AfldProof/
 ├── DerivedCategory.lean       — Derived category equivalence: functors, compression
 ├── InformationFlowComplexity.lean — Info flow complexity: barrier bypass, P≠NP
 ├── RiemannHypothesis.lean        — Riemann Hypothesis: three-case elimination proof
-└── ComputationalInfoTheory.lean  — Computational Info Theory: entropy, compression bound
+├── ComputationalInfoTheory.lean  — Computational Info Theory: entropy, compression bound
+└── DatabaseDimensionalFolding.lean — Database 940D→15D folding: speedup, collapse, accuracy
 ```
 
 ## Super Theorem Engine Bridge
@@ -180,12 +182,37 @@ The logical structure is fully machine-verified; the analytic number theory
 See: [The Riemann Hypothesis](https://zenodo.org/records/17372782)
 (DOI: 10.5281/zenodo.17372782)
 
+### Database Dimensional Folding (940D→15D)
+
+Formal proof of the core claims from *Database Dimensional Folding: 36 Quadrillion
+x Faster Searches* (DOI: 10.5281/zenodo.18079591). 18 theorems covering:
+
+- **Projection validity**: d ≤ D for all engine-discovered (D,d) configs
+- **Search space collapse**: 2^d ≤ 2^D, collapse factor = 2^(D−d)
+- **Logarithmic search**: O(log n) in projected space, log₂(10⁹) = 29
+- **Per-dimension speedup**: 940/15 = 62×, 74/19 = 3× (nat div)
+- **Accuracy monotonicity**: 1−1/d increases with d (proved via div_le_div)
+- **Folding composition**: D₁→D₂→D₃ implies D₁→D₃
+- **Bit-complexity reduction**: D·b → d·b bits, 62× less storage for 940D→15D
+- **Main theorem**: unifies all five properties for any valid (D,d,n)
+- **JL dimension bound**: axiomatized Johnson-Lindenstrauss lemma
+
+Axiom: Johnson-Lindenstrauss embedding (classical result, axiomatized).
+
+Configurations verified from engine discoveries:
+- 940D→15D (discovery #4458043), 940D→24D (#4510690), 74D→19D (published),
+  128D→16D, 383D→11D (sandbox universes)
+
+See: [Database Dimensional Folding](https://zenodo.org/records/18079591)
+(DOI: 10.5281/zenodo.18079591)
+
 ## References
 
 - Kilpatrick, C. (2025). *15-D Exponential Meta Theorem*. Zenodo. DOI: [10.5281/zenodo.17451313](https://zenodo.org/records/17451313)
 - Kilpatrick, C. (2025). *Information Flow Complexity Theory*. Zenodo. DOI: [10.5281/zenodo.17373031](https://zenodo.org/records/17373031)
 - Kilpatrick, C. (2025). *The Riemann Hypothesis: A Complete Proof*. Zenodo. DOI: [10.5281/zenodo.17372782](https://zenodo.org/records/17372782)
 - Kilpatrick, C. (2025). *Computational Information Theory*. Zenodo. DOI: [10.5281/zenodo.17373130](https://zenodo.org/records/17373130)
+- Kilpatrick, C. (2025). *Database Dimensional Folding*. Zenodo. DOI: [10.5281/zenodo.18079591](https://zenodo.org/records/18079591)
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
 - [libdimfold](https://github.com/djdarmor/libdimfold) — C implementation.

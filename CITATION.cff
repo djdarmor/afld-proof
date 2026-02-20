@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.1.0"
+version: "5.2.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -30,6 +30,10 @@ keywords:
   - critical line
   - computational information theory
   - shannon bridge
+  - database dimensional folding
+  - search space collapse
+  - projection matrix
+  - johnson lindenstrauss
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
@@ -55,10 +59,18 @@ references:
     doi: "10.5281/zenodo.17372782"
     year: 2025
     url: "https://zenodo.org/records/17372782"
+  - type: article
+    title: "Database Dimensional Folding: 36 Quadrillion x Faster Searches Through 74D→19D Projection"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.18079591"
+    year: 2025
+    url: "https://zenodo.org/records/18079591"
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
-  mathematical foundations of lossless dimensional folding. 189 theorems
-  (4 axioms), covering: Fermat bridge bijectivity, Cyclic Preservation
+  mathematical foundations of lossless dimensional folding. 207 theorems
+  (5 axioms), covering: Fermat bridge bijectivity, Cyclic Preservation
   Theorem, 85% signed-data ceiling, rank-nullity information loss,
   P≠NP dimensional separation, Beal Conjecture gap analysis, full
   compression pipeline, weighted projection fold, 15-D Exponential Meta
@@ -66,7 +78,9 @@ abstract: >-
   Information Flow Complexity Theory (flow bounds, pigeonhole, certificate
   entropy, sorting lower bound, conditional P≠NP), Riemann Hypothesis
   (three-case elimination, functional equation symmetry, zero pairing,
-  critical line properties), and a verification bridge to the Super
-  Theorem Engine (31.6K discoveries verified, 90% formal coverage),
-  Computational Information Theory (computational entropy, compression
-  bound, source coding, problem-specific analyses).
+  critical line properties), Computational Information Theory (computational
+  entropy, compression bound, source coding, problem-specific analyses),
+  Database Dimensional Folding (940D→15D projection, search space collapse,
+  logarithmic search, accuracy monotonicity, JL dimension bound), and a
+  verification bridge to the Super Theorem Engine (31.6K discoveries
+  verified, 90% formal coverage).
