@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**530 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**560 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -39,6 +39,7 @@ lossless dimensional folding, as implemented in
 | Network Throughput Framework | `NetworkThroughput.lean` | Proved |
 | Pattern-Based Optimization | `PatternOptimization.lean` | Proved |
 | Ultra-High Compression (10³⁶) | `UltraHighCompression.lean` | Proved |
+| Universal Dimensional Completeness | `UniversalDimensionalCompleteness.lean` | Proved |
 
 ## Key Results
 
@@ -119,7 +120,8 @@ AfldProof/
 ├── NuclearPhysicsFolding.lean     — Nuclear Physics 15D→7D: 99.27% preservation, 9421 experiments, SEMF scaling
 ├── NetworkThroughput.lean         — Network Throughput: C_eff=C·r, time reduction, SVD preservation, agnosticism
 ├── PatternOptimization.lean       — Pattern Optimization: 5 pattern types, 2ⁿ→nᵏ, quadrant deduction, 250M× speedup
-└── UltraHighCompression.lean      — Ultra Compression: 2.57×10³⁶ ratio, 10EB→4KB, 99.99% cost, O(n log n)
+├── UltraHighCompression.lean      — Ultra Compression: 2.57×10³⁶ ratio, 10EB→4KB, 99.99% cost, O(n log n)
+└── UniversalDimensionalCompleteness.lean — UDC Law: 9 fields × 10 dims, R_ct(d)=3+0.3d, R²=1.0
 ```
 
 ## Super Theorem Engine Bridge
