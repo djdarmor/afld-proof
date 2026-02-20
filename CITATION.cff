@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.7.0"
+version: "5.8.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -69,6 +69,12 @@ keywords:
   - logarithmic integral
   - gue statistics
   - analytic number theory
+  - gap bridge theorems
+  - cross domain science
+  - dimensional bridge
+  - bridge composition
+  - sandbox universe
+  - 37d gap bridge
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
