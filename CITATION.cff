@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.8.0"
+version: "5.9.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -75,6 +75,11 @@ keywords:
   - bridge composition
   - sandbox universe
   - 37d gap bridge
+  - video streaming optimization
+  - adaptive bitrate
+  - shannon capacity
+  - buffer dynamics
+  - qoe
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"

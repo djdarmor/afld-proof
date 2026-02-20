@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**348 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**378 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -33,6 +33,7 @@ lossless dimensional folding, as implemented in
 | Master Theorem (Algorithm Analysis) | `MasterTheorem.lean` | Proved |
 | Zero-Prime Derivative Law | `ZeroPrimeDerivative.lean` | Proved |
 | Gap Bridge Theorems (37D) | `GapBridgeTheorems.lean` | Proved |
+| Video Streaming Optimization (17D) | `VideoStreamingOptimization.lean` | Proved |
 
 ## Key Results
 
@@ -107,7 +108,8 @@ AfldProof/
 ├── QuantumGravity.lean           — Quantum gravity: emergent metric, info preservation, singularity
 ├── MasterTheorem.lean            — Master Theorem: recurrence analysis, Case 1/2/3, classic algos
 ├── ZeroPrimeDerivative.lean      — Zero-Prime Law: gap formula, RH consistency, L-function extension
-└── GapBridgeTheorems.lean        — Gap Bridges: composition, triangle inequality, cascade, 37D optimality
+├── GapBridgeTheorems.lean        — Gap Bridges: composition, triangle inequality, cascade, 37D optimality
+└── VideoStreamingOptimization.lean — Video Streaming: Shannon capacity, buffer dynamics, ABR, GOP, QoE
 ```
 
 ## Super Theorem Engine Bridge
