@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.3.0"
+version: "5.4.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -41,6 +41,13 @@ keywords:
   - manifold structure
   - scaling law
   - einstein
+  - cube space design
+  - n-dimensional coordinates
+  - system state visualization
+  - quantum optimization
+  - 37d gap bridge
+  - frame optimization
+  - voxel representation
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
@@ -82,6 +89,14 @@ references:
     doi: "10.5281/zenodo.18679011"
     year: 2026
     url: "https://zenodo.org/records/18679011"
+  - type: article
+    title: "Cube Space Design: A Universal N-Dimensional Coordinate System for System State Visualization and Optimization"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.18143028"
+    year: 2026
+    url: "https://zenodo.org/records/18143028"
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
   mathematical foundations of lossless dimensional folding. 240 theorems
@@ -99,5 +114,8 @@ abstract: >-
   logarithmic search, accuracy monotonicity, JL dimension bound),
   E=mc² Dimensional Embeddings (symmetry invariant, scaling law α(n)=2n/3,
   negative Gaussian curvature, 15D projection, multiple optimal embeddings,
-  53,218 experiments validated), and a verification bridge to the Super
-  Theorem Engine (31.6K discoveries verified, 90% formal coverage).
+  53,218 experiments validated), Cube Space Design (15D universal coordinate
+  system, 15D→3D projection with 99.8% preservation, quantum 37D gap bridge,
+  69.4× combined performance boost, optimization framework), and a
+  verification bridge to the Super Theorem Engine (31.6K discoveries verified,
+  90% formal coverage).

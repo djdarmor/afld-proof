@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**240 theorems. Zero `sorry`. 5 axioms. Fully machine-verified.**
+**260 theorems. Zero `sorry`. 5 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -28,6 +28,7 @@ lossless dimensional folding, as implemented in
 | Computational Information Theory | `ComputationalInfoTheory.lean` | Proved |
 | Database Dimensional Folding | `DatabaseDimensionalFolding.lean` | Proved |
 | E=mc² Dimensional Embeddings | `Emc2DimensionalEmbeddings.lean` | Proved |
+| Cube Space Design (15D) | `CubeSpaceDesign.lean` | Proved |
 
 ## Key Results
 
@@ -97,7 +98,8 @@ AfldProof/
 ├── RiemannHypothesis.lean        — Riemann Hypothesis: three-case elimination proof
 ├── ComputationalInfoTheory.lean  — Computational Info Theory: entropy, compression bound
 ├── DatabaseDimensionalFolding.lean — Database 940D→15D folding: speedup, collapse, accuracy
-└── Emc2DimensionalEmbeddings.lean — E=mc² 15D embeddings: invariant, scaling, curvature
+├── Emc2DimensionalEmbeddings.lean — E=mc² 15D embeddings: invariant, scaling, curvature
+└── CubeSpaceDesign.lean          — Cube Space: 15D coordinates, 15D→3D projection, quantum boost
 ```
 
 ## Super Theorem Engine Bridge
@@ -229,6 +231,26 @@ Invariant (3.3), Scaling (3.4), Manifold (3.5), Embeddings (3.7).
 See: [E=mc² Dimensional Embeddings](https://zenodo.org/records/18679011)
 (DOI: 10.5281/zenodo.18679011)
 
+### Cube Space Design (15D Universal Coordinate System)
+
+Formal proof of the core mathematical claims from *Cube Space Design: A Universal
+N-Dimensional Coordinate System for System State Visualization and Optimization*
+(DOI: 10.5281/zenodo.18143028). 20 theorems covering:
+
+- **15D Coordinate System**: 15 dimensions sufficient for universal system state
+- **15D→3D Projection**: compression ratio κ = 5, 99.8% information preservation
+- **Projection Efficiency**: η = 95.8%, 12 residual dimensions map to visual properties
+- **Quantum 37D Gap Bridge**: U = U_base × η_val × η_amp × η_info (utility positive)
+- **CPU/Mem/GPU Boosts**: 1.41× · 5.33× · 9.26× = 69.4× combined improvement
+- **Optimization Framework**: delta frames (70–90%), caching (90–99%), multi-scale
+- **Overall Overhead Reduction**: 95–99% with full information fidelity
+- **Deployment Validation**: 6-node cluster, 120K discoveries/sec, 9.5% memory usage
+
+All 20 theorems proved without axioms or `sorry`.
+
+See: [Cube Space Design](https://zenodo.org/records/18143028)
+(DOI: 10.5281/zenodo.18143028)
+
 ## References
 
 - Kilpatrick, C. (2025). *15-D Exponential Meta Theorem*. Zenodo. DOI: [10.5281/zenodo.17451313](https://zenodo.org/records/17451313)
@@ -237,6 +259,7 @@ See: [E=mc² Dimensional Embeddings](https://zenodo.org/records/18679011)
 - Kilpatrick, C. (2025). *Computational Information Theory*. Zenodo. DOI: [10.5281/zenodo.17373130](https://zenodo.org/records/17373130)
 - Kilpatrick, C. (2025). *Database Dimensional Folding*. Zenodo. DOI: [10.5281/zenodo.18079591](https://zenodo.org/records/18079591)
 - Kilpatrick, C. (2026). *Computational Validation of E=mc² Dimensional Embeddings*. Zenodo. DOI: [10.5281/zenodo.18679011](https://zenodo.org/records/18679011)
+- Kilpatrick, C. (2026). *Cube Space Design: A Universal N-Dimensional Coordinate System*. Zenodo. DOI: [10.5281/zenodo.18143028](https://zenodo.org/records/18143028)
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
 - [libdimfold](https://github.com/djdarmor/libdimfold) — C implementation.

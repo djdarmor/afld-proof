@@ -18,3 +18,4 @@ import AfldProof.RiemannHypothesis
 import AfldProof.ComputationalInfoTheory
 import AfldProof.DatabaseDimensionalFolding
 import AfldProof.Emc2DimensionalEmbeddings
+import AfldProof.CubeSpaceDesign
