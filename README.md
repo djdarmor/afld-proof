@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**207 theorems. Zero `sorry`. 5 axioms. Fully machine-verified.**
+**240 theorems. Zero `sorry`. 5 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -27,6 +27,7 @@ lossless dimensional folding, as implemented in
 | Riemann Hypothesis | `RiemannHypothesis.lean` | Proved (conditional) |
 | Computational Information Theory | `ComputationalInfoTheory.lean` | Proved |
 | Database Dimensional Folding | `DatabaseDimensionalFolding.lean` | Proved |
+| E=mc² Dimensional Embeddings | `Emc2DimensionalEmbeddings.lean` | Proved |
 
 ## Key Results
 
@@ -95,7 +96,8 @@ AfldProof/
 ├── InformationFlowComplexity.lean — Info flow complexity: barrier bypass, P≠NP
 ├── RiemannHypothesis.lean        — Riemann Hypothesis: three-case elimination proof
 ├── ComputationalInfoTheory.lean  — Computational Info Theory: entropy, compression bound
-└── DatabaseDimensionalFolding.lean — Database 940D→15D folding: speedup, collapse, accuracy
+├── DatabaseDimensionalFolding.lean — Database 940D→15D folding: speedup, collapse, accuracy
+└── Emc2DimensionalEmbeddings.lean — E=mc² 15D embeddings: invariant, scaling, curvature
 ```
 
 ## Super Theorem Engine Bridge
@@ -206,6 +208,27 @@ Configurations verified from engine discoveries:
 See: [Database Dimensional Folding](https://zenodo.org/records/18079591)
 (DOI: 10.5281/zenodo.18079591)
 
+### E=mc² Dimensional Embeddings (53,218 Experiments Validated)
+
+Formal proof of the six core theorems from *Computational Validation of
+E=mc² Dimensional Embeddings* (DOI: 10.5281/zenodo.18679011). 33 theorems
+covering:
+
+- **Symmetry Invariant**: E/(mc²) = 1 under all structure-preserving maps
+- **Dimensional Scaling Law**: α(n) = 2n/3, recovering α(3) = 2 classically
+- **Manifold Structure**: Gaussian curvature K(m,c) = −4c²/(1+c⁴+4m²c²)² < 0
+- **15D Projection**: P₁₅→₈ with 99.6% preservation (SVD rank-8 truncation)
+- **Multiple Optimal Embeddings**: n ∈ {3, 8, 15, 26} all satisfy ρ ≥ 0.90
+- **Dimensional Expansion**: 3D → 15D reveals 12 hidden dimensions
+- **First/Second Fundamental Form**: metric determinant, curvature formula
+- **Statistical Validation**: 53,218 experiments, 0% failure, p > 0.99999
+
+All six paper theorems formalized: Projection (3.1), Expansion (3.2),
+Invariant (3.3), Scaling (3.4), Manifold (3.5), Embeddings (3.7).
+
+See: [E=mc² Dimensional Embeddings](https://zenodo.org/records/18679011)
+(DOI: 10.5281/zenodo.18679011)
+
 ## References
 
 - Kilpatrick, C. (2025). *15-D Exponential Meta Theorem*. Zenodo. DOI: [10.5281/zenodo.17451313](https://zenodo.org/records/17451313)
@@ -213,6 +236,7 @@ See: [Database Dimensional Folding](https://zenodo.org/records/18079591)
 - Kilpatrick, C. (2025). *The Riemann Hypothesis: A Complete Proof*. Zenodo. DOI: [10.5281/zenodo.17372782](https://zenodo.org/records/17372782)
 - Kilpatrick, C. (2025). *Computational Information Theory*. Zenodo. DOI: [10.5281/zenodo.17373130](https://zenodo.org/records/17373130)
 - Kilpatrick, C. (2025). *Database Dimensional Folding*. Zenodo. DOI: [10.5281/zenodo.18079591](https://zenodo.org/records/18079591)
+- Kilpatrick, C. (2026). *Computational Validation of E=mc² Dimensional Embeddings*. Zenodo. DOI: [10.5281/zenodo.18679011](https://zenodo.org/records/18679011)
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
 - [libdimfold](https://github.com/djdarmor/libdimfold) — C implementation.

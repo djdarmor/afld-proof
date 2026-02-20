@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.2.0"
+version: "5.3.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -34,6 +34,13 @@ keywords:
   - search space collapse
   - projection matrix
   - johnson lindenstrauss
+  - emc2
+  - mass energy equivalence
+  - dimensional embedding
+  - gaussian curvature
+  - manifold structure
+  - scaling law
+  - einstein
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
@@ -67,9 +74,17 @@ references:
     doi: "10.5281/zenodo.18079591"
     year: 2025
     url: "https://zenodo.org/records/18079591"
+  - type: article
+    title: "Computational Validation of E=mc² Dimensional Embeddings"
+    authors:
+      - family-names: Kilpatrick
+        given-names: Christian
+    doi: "10.5281/zenodo.18679011"
+    year: 2026
+    url: "https://zenodo.org/records/18679011"
 abstract: >-
   Machine-verified formal proofs in Lean 4 (with Mathlib) for the
-  mathematical foundations of lossless dimensional folding. 207 theorems
+  mathematical foundations of lossless dimensional folding. 240 theorems
   (5 axioms), covering: Fermat bridge bijectivity, Cyclic Preservation
   Theorem, 85% signed-data ceiling, rank-nullity information loss,
   P≠NP dimensional separation, Beal Conjecture gap analysis, full
@@ -81,6 +96,8 @@ abstract: >-
   critical line properties), Computational Information Theory (computational
   entropy, compression bound, source coding, problem-specific analyses),
   Database Dimensional Folding (940D→15D projection, search space collapse,
-  logarithmic search, accuracy monotonicity, JL dimension bound), and a
-  verification bridge to the Super Theorem Engine (31.6K discoveries
-  verified, 90% formal coverage).
+  logarithmic search, accuracy monotonicity, JL dimension bound),
+  E=mc² Dimensional Embeddings (symmetry invariant, scaling law α(n)=2n/3,
+  negative Gaussian curvature, 15D projection, multiple optimal embeddings,
+  53,218 experiments validated), and a verification bridge to the Super
+  Theorem Engine (31.6K discoveries verified, 90% formal coverage).
