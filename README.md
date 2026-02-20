@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**304 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**326 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -31,6 +31,7 @@ lossless dimensional folding, as implemented in
 | Cube Space Design (15D) | `CubeSpaceDesign.lean` | Proved |
 | Unified Quantum Gravity | `QuantumGravity.lean` | Proved |
 | Master Theorem (Algorithm Analysis) | `MasterTheorem.lean` | Proved |
+| Zero-Prime Derivative Law | `ZeroPrimeDerivative.lean` | Proved |
 
 ## Key Results
 
@@ -103,7 +104,8 @@ AfldProof/
 ├── Emc2DimensionalEmbeddings.lean — E=mc² 15D embeddings: invariant, scaling, curvature
 ├── CubeSpaceDesign.lean          — Cube Space: 15D coordinates, 15D→3D projection, quantum boost
 ├── QuantumGravity.lean           — Quantum gravity: emergent metric, info preservation, singularity
-└── MasterTheorem.lean            — Master Theorem: recurrence analysis, Case 1/2/3, classic algos
+├── MasterTheorem.lean            — Master Theorem: recurrence analysis, Case 1/2/3, classic algos
+└── ZeroPrimeDerivative.lean      — Zero-Prime Law: gap formula, RH consistency, L-function extension
 ```
 
 ## Super Theorem Engine Bridge
@@ -308,6 +310,7 @@ Zero axioms, zero sorry.
 - Kilpatrick, C. (2026). *Computational Validation of E=mc² Dimensional Embeddings*. Zenodo. DOI: [10.5281/zenodo.18679011](https://zenodo.org/records/18679011)
 - Kilpatrick, C. (2026). *Cube Space Design: A Universal N-Dimensional Coordinate System*. Zenodo. DOI: [10.5281/zenodo.18143028](https://zenodo.org/records/18143028)
 - Kilpatrick, C. (2025). *Unified Quantum Gravity Theory Through Emergent Spacetime*. Zenodo. DOI: [10.5281/zenodo.17994803](https://zenodo.org/records/17994803)
+- Kilpatrick, C. (2025). *The Zero-Prime Derivative Law*. Zenodo. DOI: [10.5281/zenodo.17382430](https://zenodo.org/records/17382430)
 - Cormen, T. H. et al. *Introduction to Algorithms* (Master Theorem, Ch. 4).
 - Kilpatrick, C. (2026). *Warp Drive Number Theory*.
 - Kilpatrick, C. (2026). *Information Flow Complexity*.
