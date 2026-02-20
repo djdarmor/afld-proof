@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these proofs, please cite as below."
+title: "AFLD Proof: Machine-Verified Properties of Dimensional Folding"
+type: software
+authors:
+  - family-names: Kilpatrick
+    given-names: Christopher
+    alias: djdarmor
+repository-code: "https://github.com/djdarmor/afld-proof"
+license: MIT
+version: "1.0.0"
+date-released: "2026-02-19"
+keywords:
+  - lean4
+  - formal verification
+  - theorem proving
+  - dimensional folding
+  - compression
+  - number theory
+  - fermat bridge
+  - mathlib
+abstract: >-
+  Machine-verified formal proofs in Lean 4 (with Mathlib) for the
+  mathematical foundations of lossless dimensional folding. 91 theorems
+  with zero sorry and zero axioms, covering: Fermat bridge bijectivity,
+  Cyclic Preservation Theorem, 85% signed-data ceiling, rank-nullity
+  information loss, P≠NP dimensional separation, Beal Conjecture
+  infrastructure, and full compression pipeline error bounds.
