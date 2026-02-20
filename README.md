@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**480 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**506 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -37,6 +37,7 @@ lossless dimensional folding, as implemented in
 | Quantum Consciousness (18D) | `QuantumConsciousness.lean` | Proved |
 | Nuclear Physics Folding (15D→7D) | `NuclearPhysicsFolding.lean` | Proved |
 | Network Throughput Framework | `NetworkThroughput.lean` | Proved |
+| Pattern-Based Optimization | `PatternOptimization.lean` | Proved |
 
 ## Key Results
 
@@ -115,7 +116,8 @@ AfldProof/
 ├── VideoStreamingOptimization.lean — Video Streaming: Shannon capacity, buffer dynamics, ABR, GOP, QoE
 ├── QuantumConsciousness.lean      — Quantum Consciousness: scaling law, Gaussian peak, SAT bridge, IIT
 ├── NuclearPhysicsFolding.lean     — Nuclear Physics 15D→7D: 99.27% preservation, 9421 experiments, SEMF scaling
-└── NetworkThroughput.lean         — Network Throughput: C_eff=C·r, time reduction, SVD preservation, agnosticism
+├── NetworkThroughput.lean         — Network Throughput: C_eff=C·r, time reduction, SVD preservation, agnosticism
+└── PatternOptimization.lean       — Pattern Optimization: 5 pattern types, 2ⁿ→nᵏ, quadrant deduction, 250M× speedup
 ```
 
 ## Super Theorem Engine Bridge

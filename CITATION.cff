@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.12.0"
+version: "5.13.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -99,6 +99,12 @@ keywords:
   - protocol agnostic
   - link agnostic
   - transfer time reduction
+  - pattern optimization
+  - np hard
+  - polynomial time
+  - recursive quadrant deduction
+  - complexity reduction
+  - exponential to polynomial
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
