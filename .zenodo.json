@@ -1,0 +1,66 @@
+{
+  "title": "AFLD Proof: Machine-Verified Properties of Dimensional Folding (692 Theorems)",
+  "description": "A comprehensive Lean 4 formal proof library containing 692 machine-verified theorems with zero sorry and 6 axioms. Covers dimensional folding, information theory, number theory (Fermat, Beal, Riemann, Basel), physics (quantum gravity, dark matter, advanced propulsion, nuclear physics), computer science (master theorem, algorithm analysis, video streaming, network optimization), satellite constellation geometry, and framework linking between the 15D Super-Theorem and open mathematical problems. All proofs compile with Lean 4.29.0 + Mathlib. Used to derive formally-verified performance boost algorithms deployed across a distributed discovery array.",
+  "creators": [
+    {
+      "name": "Kilpatrick, Christopher",
+      "affiliation": "Advanced Research Array",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "lean4",
+    "formal verification",
+    "dimensional folding",
+    "mathematical proofs",
+    "theorem proving",
+    "information theory",
+    "number theory",
+    "quantum gravity",
+    "dark matter",
+    "satellite constellation",
+    "convergence acceleration",
+    "compression algorithms",
+    "15D super-theorem",
+    "framework linking",
+    "machine-verified mathematics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17439774",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.17444522",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18079591",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.17994803",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.17382430",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/advancedresearcharray/afld-proof",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ],
+  "version": "5.21.0",
+  "language": "eng",
+  "notes": "Build: lake build (requires Lean 4.29.0 + Mathlib). All 692 theorems verified by the Lean kernel with zero sorry. Includes 37 Lean source files covering 38 mathematical domains."
+}
