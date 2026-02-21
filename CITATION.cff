@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.20.0"
+version: "5.21.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -140,6 +140,10 @@ keywords:
   - extra dimensions
   - gravitational projection
   - 45d simulation
+  - satellite constellation
+  - orbital mechanics
+  - walker constellation
+  - framework linking
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"
