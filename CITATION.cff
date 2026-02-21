@@ -8,7 +8,7 @@ authors:
     alias: djdarmor
 repository-code: "https://github.com/djdarmor/afld-proof"
 license: MIT
-version: "5.26.0"
+version: "5.27.0"
 date-released: "2026-02-20"
 keywords:
   - lean4
@@ -162,6 +162,9 @@ keywords:
   - cross domain bridge
   - 8196D folding
   - self reinforcing loop
+  - shannon entropy
+  - information theory
+  - entropy efficiency
 references:
   - type: article
     title: "15-D Exponential Meta Theorem: Unifying Mathematical Perspectives for Revolutionary Algorithmic Optimization"

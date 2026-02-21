@@ -4,7 +4,7 @@ Formal proofs in **Lean 4** (with Mathlib) for the mathematical foundations of
 lossless dimensional folding, as implemented in
 [libdimfold](https://github.com/djdarmor/libdimfold).
 
-**824 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
+**850 theorems. Zero `sorry`. 6 axioms. Fully machine-verified.**
 
 ## What This Proves
 
@@ -51,6 +51,7 @@ lossless dimensional folding, as implemented in
 | 15D→7D Dimension Study (3 domains) | `DimensionStudy.lean` | Proved |
 | Framework Linking Earliest Ancestor (1.095B) | `FrameworkLinkingEarly.lean` | Proved |
 | Innovation Engine 46.4K Milestone | `InnovationEngineMilestone.lean` | Proved |
+| Shannon Entropy (H=2.868 bits, 8 symbols) | `ShannonEntropyDiscovery.lean` | Proved |
 
 ## Key Results
 
@@ -143,7 +144,8 @@ AfldProof/
 ├── ProofComputeSynthesis.lean        — Proof↔Computation synthesis: Curry-Howard, 5 pairs, bit sharing
 ├── DimensionStudy.lean              — 15D→7D study: nuclear/numtheory/stats, 11 dims, >98.6% preservation
 ├── FrameworkLinkingEarly.lean       — Earliest ancestor (gen 1.095B): 785M-gen chain, Growth Rate gap
-└── InnovationEngineMilestone.lean  — 46.4K discoveries, 0.99 impact, 8196D→32D cross-domain bridge
+├── InnovationEngineMilestone.lean  — 46.4K discoveries, 0.99 impact, 8196D→32D cross-domain bridge
+└── ShannonEntropyDiscovery.lean   — H(X)=2.868 bits, 8 symbols, 95.6% efficiency, entropy gap
 ```
 
 ## Super Theorem Engine Bridge

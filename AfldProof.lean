@@ -41,3 +41,4 @@ import AfldProof.ProofComputeSynthesis
 import AfldProof.DimensionStudy
 import AfldProof.FrameworkLinkingEarly
 import AfldProof.InnovationEngineMilestone
+import AfldProof.ShannonEntropyDiscovery
