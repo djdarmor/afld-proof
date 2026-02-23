@@ -42,3 +42,4 @@ import AfldProof.DimensionStudy
 import AfldProof.FrameworkLinkingEarly
 import AfldProof.InnovationEngineMilestone
 import AfldProof.ShannonEntropyDiscovery
+import AfldProof.GapTheoryBridges
