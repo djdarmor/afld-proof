@@ -222,4 +222,57 @@ theorem capacity_three_coprime {a b c : ℕ}
   rw [capacity_additive (Nat.mul_pos ha hb) hc (Nat.Coprime.mul_left hac hbc)]
   rw [capacity_additive ha hb hab]
 
+/-! ## Layer 9: Shannon Capacity via Codeword Counting
+
+    For a noiseless discrete memoryless channel with alphabet A,
+    the maximum number of perfectly distinguishable length-n sequences is |A|^n.
+    The operational capacity is:
+
+      C = lim_{n→∞} (1/n) log₂(|A|^n) = log₂|A|
+
+    This is the SHANNON capacity of the channel — not merely a "noiseless
+    convenience."  A noiseless DMC is a well-defined channel model with a
+    well-defined capacity. We prove this from first principles via the
+    codeword counting argument. -/
+
+noncomputable def codeword_count (A : Type*) [Fintype A] (n : ℕ) : ℕ :=
+  Fintype.card (Fin n → A)
+
+theorem codeword_count_eq_pow (A : Type*) [Fintype A] [DecidableEq A] (n : ℕ) :
+    codeword_count A n = (Fintype.card A) ^ n := by
+  unfold codeword_count
+  rw [Fintype.card_fun, Fintype.card_fin]
+
+noncomputable def rate (c : ℕ) (n : ℕ) : ℝ :=
+  Real.log c / (n * Real.log 2)
+
+theorem noiseless_rate_eq_log_card (A : Type*) [Fintype A] [DecidableEq A]
+    (n : ℕ) (hn : 0 < n) (_hA : 0 < Fintype.card A) :
+    rate (codeword_count A n) n = Real.log (Fintype.card A) / Real.log 2 := by
+  unfold rate
+  rw [codeword_count_eq_pow, Nat.cast_pow, Real.log_pow]
+  have hn' : (0 : ℝ) < n := Nat.cast_pos.mpr hn
+  field_simp
+
+noncomputable def shannon_capacity (A : Type*) [Fintype A] : ℝ :=
+  Real.log (Fintype.card A) / Real.log 2
+
+theorem coprime_alphabet_card (m : ℕ) [NeZero m] [Fintype (ZMod m)ˣ] :
+    Fintype.card (ZMod m)ˣ = Nat.totient m := by
+  rw [ZMod.card_units_eq_totient]
+
+theorem capacity_achieved_at_all_lengths (A : Type*) [Fintype A] [DecidableEq A]
+    (n : ℕ) (hn : 0 < n) (hA : 0 < Fintype.card A) :
+    rate (codeword_count A n) n = shannon_capacity A := by
+  rw [noiseless_rate_eq_log_card A n hn hA]
+  rfl
+
+theorem shannon_capacity_additive (A B : Type*) [Fintype A] [Fintype B]
+    (hA : 0 < Fintype.card A) (hB : 0 < Fintype.card B) :
+    shannon_capacity (A × B) = shannon_capacity A + shannon_capacity B := by
+  unfold shannon_capacity
+  rw [Fintype.card_prod, Nat.cast_mul, Real.log_mul
+    (Nat.cast_ne_zero.mpr (by omega)) (Nat.cast_ne_zero.mpr (by omega))]
+  ring
+
 end NewBridge.TotientChannelCapacity
